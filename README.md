@@ -7,10 +7,10 @@
 <h3 align="center">🤖 Fullstack Developer | ☁️ AI & Data Explorer | ⚙️ Automation Engineer</h3>
 
 <p align="center">
-  <a href="https://linkedin.com/in/sandyytampubolon">
+  <a href="https://linkedin.com/in/sandy-tampubolon-1811942b6/">
     <img src="https://img.shields.io/badge/LinkedIn-00a0dc?logo=linkedin&logoColor=white&style=for-the-badge" />
   </a>
-  <a href="mailto:sandyytampubolon@gmail.com">
+  <a href="mailto:sandy.putra0884@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" />
   </a>
   <a href="https://portofoliosandy.vercel.app">
