@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250">
+  <defs>
+    <linearGradient id="neon">
+      <stop offset="0%" stop-color="#00ffff">
+        <animate attributeName="stop-color" values="#00ffff;#ff00ff;#00ffff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff00ff">
+        <animate attributeName="stop-color" values="#ff00ff;#00ffff;#ff00ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .sky { fill: #060013; }
+      .ground {
+        fill: #0c0025;
+        stroke: url(#neon);
+        stroke-width: 1;
+        filter: url(#glow);
+      }
+
+      /* Baymax style */
+      .robot {
+        animation: fullCycle 14s ease-in-out infinite;
+        transform-origin: center bottom;
+      }
+
+      .body, .head, .limb {
+        fill: white;
+        stroke: #00ffff;
+        stroke-width: 1;
+        filter: url(#glow);
+      }
+
+      .eye { fill: #00ffff; }
+
+      /* Movement */
+      @keyframes fullCycle {
+        0%   { transform: translate(80px,150px) scaleX(1) rotate(0deg); }
+        25%  { transform: translate(250px,150px) scaleX(1) rotate(0deg); }
+        35%  { transform: translate(280px,158px) rotate(25deg); }  /* stumble */
+        45%  { transform: translate(300px,175px) rotate(90deg); }  /* fall down */
+        55%  { transform: translate(280px,160px) rotate(0deg); }   /* getting up */
+        75%  { transform: translate(520px,150px) scaleX(-1) rotate(0deg); } /* walk back */
+        100% { transform: translate(80px,150px) scaleX(-1) rotate(0deg); }  /* back start */
+      }
+
+      @keyframes legMove {
+        0%,100% { transform: rotate(8deg); }
+        50% { transform: rotate(-12deg); }
+      }
+
+      @keyframes armMove {
+        0%,100% { transform: rotate(-10deg); }
+        50% { transform: rotate(12deg); }
+      }
+
+      @keyframes bounce {
+        0%,100% { transform: translateY(0); }
+        50% { transform: translateY(-3px); }
+      }
+
+      @keyframes blink {
+        0%, 90%, 100% { opacity: 1; }
+        92%, 98% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="250" class="sky"/>
+  <rect y="200" width="600" height="50" class="ground"/>
+
+  <!-- Baymax -->
+  <g class="robot">
+    <g class="body-group" style="animation: bounce 1s ease-in-out infinite;">
+      <!-- Legs -->
+      <ellipse class="limb" cx="-10" cy="200" rx="7" ry="14" transform-origin="-10 200" style="animation: legMove 1s ease-in-out infinite alternate;"/>
+      <ellipse class="limb" cx="10" cy="200" rx="7" ry="14" transform-origin="10 200" style="animation: legMove 1s ease-in-out infinite alternate-reverse;"/>
+
+      <!-- Body -->
+      <ellipse class="body" cx="0" cy="170" rx="22" ry="30"/>
+      <ellipse fill="#f2f2f2" stroke="#00ffff" stroke-width="0.8" cx="0" cy="175" rx="14" ry="20"/>
+
+      <!-- Head -->
+      <ellipse class="head" cx="0" cy="140" rx="15" ry="10"/>
+
+      <!-- Eyes -->
+      <circle class="eye" cx="-5" cy="140" r="2" style="animation: blink 4s infinite;"/>
+      <circle class="eye" cx="5" cy="140" r="2" style="animation: blink 4s infinite;"/>
+      <line x1="-5" y1="140" x2="5" y2="140" stroke="#00ffff" stroke-width="1"/>
+
+      <!-- Arms -->
+      <ellipse class="limb" cx="-25" cy="165" rx="5" ry="10" transform-origin="-25 165" style="animation: armMove 1s ease-in-out infinite alternate-reverse;"/>
+      <ellipse class="limb" cx="25" cy="165" rx="5" ry="10" transform-origin="25 165" style="animation: armMove 1s ease-in-out infinite alternate;"/>
+    </g>
+  </g>
+
+  <!-- Audio for realism -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/02/23/audio_9a6d3a42b4.mp3?filename=footsteps-on-gravel-1-118224.mp3" type="audio/mpeg">
+  </audio>
+</svg>
