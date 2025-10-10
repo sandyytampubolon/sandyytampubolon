@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=250&section=header&text=Sandy%20Tampubolon&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 </p>
 
-<h3 align="center">💻 Web Developer | ☁️ Cloud Enthusiast | 🚀 Lifelong Learner</h3>
+<h3 align="center">💻 Fullstack Developer | ☁️ Data and AI Enthusiast | 🚀 IT Operation and Engineering</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/YOUR-LINKEDIN">
