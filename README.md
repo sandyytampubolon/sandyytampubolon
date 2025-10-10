@@ -77,7 +77,9 @@
 ### 🐍 Contribution Snake Animation
 <div align="center">
 
-![snake gif](https://github.com/sandyytampubolon/sandyytampubolon/blob/output/github-contribution-grid-snake.svg)
+![snake light](https://github.com/sandyytampubolon/sandyytampubolon/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![snake dark](https://github.com/sandyytampubolon/sandyytampubolon/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+
 
 </div>
 
