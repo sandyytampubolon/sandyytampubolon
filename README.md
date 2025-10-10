@@ -93,7 +93,9 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=120&section=footer"/>
+ [![webhrmcuco stars](https://img.shields.io/github/stars/sandyytampubolon/webhrmcuco?style=social)](https://github.com/sandyytampubolon/webhrmcuco)
+[![portofoliosandy stars](https://img.shields.io/github/stars/sandyytampubolon/portofoliosandy?style=social)](https://github.com/sandyytampubolon/portofoliosandy)
+
 </p>
 
 ⭐️ _from [sandyytampubolon](https://github.com/sandyytampubolon)_
