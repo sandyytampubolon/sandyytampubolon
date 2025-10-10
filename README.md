@@ -62,7 +62,7 @@
 ### 🎧 Now Playing on Spotify
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sandyytampubolon/sandyytampubolon/main/assets/baymax-walk-grounded.svg" width="600" alt="Cyberpunk Robot" />
+  <img src="https://raw.githubusercontent.com/sandyytampubolon/sandyytampubolon/main/assets/buatrobotkartun.svg" width="600" alt="Cyberpunk Robot" />
 </p>
 ---
 
