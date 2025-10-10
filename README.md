@@ -96,7 +96,7 @@
 ### 🚀 Recent Projects
 
 [![webhrmcuco](https://github-readme-stats.vercel.app/api/pin/?username=sandyytampubolon&repo=webhrmcuco&theme=radical)](https://github.com/sandyytampubolon/webhrmcuco)
-[![portofoliosandy](https://github-readme-stats.vercel.app/api/pin/?username=sandyytampubolon&repo=portofoliosandy&theme=radical)](https://github.com/sandyytampubolon/portofoliosandy)
+[![portofoliosandy](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=sandyytampubolon&repo=portofoliosandy&theme=radical)](https://github.com/sandyytampubolon/portofoliosandy)
 [![slc_new](https://github-readme-stats.vercel.app/api/pin/?username=sandyytampubolon&repo=slc_new&theme=radical)](https://github.com/sandyytampubolon/slc_new)
 
 
