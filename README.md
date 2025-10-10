@@ -61,8 +61,7 @@
 
 ### 🎧 Now Playing on Spotify
 
-[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=312znxmlv5zxfpju2rwvwcjmk7mm&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&bar_color=00ffff&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=312znxmlv5zxfpju2rwvwcjmk7mm&redirect=true)
-
+[![Spotify](https://spotify-github-profile-git-main.vercel.app/api/view?uid=312znxmlv5zxfpju2rwvwcjmk7mm&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&bar_color=00ffff&bar_color_cover=true)](https://spotify-github-profile-git-main.vercel.app/api/view?uid=312znxmlv5zxfpju2rwvwcjmk7mm&redirect=true)
 
 ---
 
