@@ -68,7 +68,8 @@
 
 <p align="center">
   <a href="https://github.com/sandyytampubolon?tab=repositories">
-    <img src="https://github-contributor-stats.vercel.app/api?username=sandyytampubolon&limit=5&theme=radical&combine_all_yearly_contributions=true" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=sandyytampubolon&show_icons=true&theme=radical" />
+
   </a>
 </p>
 
