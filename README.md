@@ -20,15 +20,13 @@
 
 ---
 
-### 👾 Welcome, Human!
+### 👾 Welcome,!
 
 🧠 Passionate about crafting **AI-driven, data-powered web experiences**  
 ⚙️ Loves **Next.js**, **React**, and **backend automation**  
 💬 "Code like a machine, think like a human."
 
 ---
-
-### 💫 Typing Animation
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&pause=800&color=00F7FF&center=true&vCenter=true&width=500&lines=Initializing+Sandy's+Profile...;Loading+Fullstack+Modules...;AI+Core+Activated+🤖;Welcome+to+the+Cyber+Zone!)](https://git.io/typing-svg)
 
