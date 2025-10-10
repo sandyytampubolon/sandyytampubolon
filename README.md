@@ -1,4 +1,3 @@
-<!-- Profil GitHub interaktif oleh ChatGPT ✨ -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=250&section=header&text=Sandy%20Tampubolon&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 </p>
