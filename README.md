@@ -1,119 +1,103 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=250&section=header&text=Sandy%20Tampubolon&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
-</p>
-
-<h3 align="center">💻 Fullstack Developer | ☁️ Data and AI Enthusiast | 🚀 IT Operation and Engineering</h3>
+<!-- 🌌 CYBERPUNK THEME GITHUB README -->
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,100:ff00ff&height=250&section=header&text=⚡Sandy%20Tampubolon⚡&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=38"/>
+</p>
+
+<h3 align="center">🤖 Fullstack Developer | ☁️ AI & Data Explorer | ⚙️ Automation Engineer</h3>
+
+<p align="center">
+  <a href="https://linkedin.com/in/sandyytampubolon">
+    <img src="https://img.shields.io/badge/LinkedIn-00a0dc?logo=linkedin&logoColor=white&style=for-the-badge" />
   </a>
-  <a href="mailto:youremail@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
+  <a href="mailto:sandyytampubolon@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" />
   </a>
-  <a href="https://yourportfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=white" />
+  <a href="https://portofoliosandy.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" />
   </a>
 </p>
 
 ---
 
-### 👋 Hello, World!
+### 👾 Welcome, Human!
 
-🌱 I’m currently learning **Next.js, TypeScript, and Cloud Deployment**  
-🧩 I enjoy creating **interactive user experiences** and **efficient backend systems**  
-⚙️ Always open to collaboration & open source  
-
----
-
-### 🧠 Dynamic Typing Animation
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFAA&center=true&vCenter=true&width=500&lines=Hi+there!+👋;Welcome+to+my+profile!;I'm+Sandy,+a+Web+Developer;Let's+build+something+great+🔥)](https://git.io/typing-svg)
+🧠 Passionate about crafting **AI-driven, data-powered web experiences**  
+⚙️ Loves **Next.js**, **React**, and **backend automation**  
+💬 "Code like a machine, think like a human."
 
 ---
 
-### 💡 Tech Stack
+### 💫 Typing Animation
 
-| 💻 Languages | ⚙️ Frameworks | ☁️ Cloud | 🗄️ Database | 🧰 Tools |
-|:--------------|:----------------|:-----------|:--------------|:-----------|
-| JavaScript, Python, Go | React, Next.js, Node.js | Vercel, AWS, DigitalOcean | MySQL, MongoDB, Firebase | Git, Docker, VS Code, Figma |
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&pause=800&color=00F7FF&center=true&vCenter=true&width=500&lines=Initializing+Sandy's+Profile...;Loading+Fullstack+Modules...;AI+Core+Activated+🤖;Welcome+to+the+Cyber+Zone!)](https://git.io/typing-svg)
 
 ---
 
-### 📊 GitHub Stats
+### ⚙️ Tech Arsenal
+
+| 💻 Languages | 🚀 Frameworks | ☁️ Cloud | 🧠 Database | 🧰 Tools |
+|:-------------:|:--------------:|:----------:|:-------------:|:-----------:|
+| JavaScript • Python | React • Next.js • Node.js | Vercel • Firebase | MySQL • MongoDB • Oracle | Git • VS Code • Figma • AI Tools |
+
+---
+
+### 🌌 Cyber Stats
 
 <div align="center">
 
-![Sandy's GitHub stats](https://github-readme-stats.vercel.app/api?username=sandyytampubolon&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sandyytampubolon&layout=compact&theme=tokyonight&hide_border=true)
+![Sandy's GitHub stats](https://github-readme-stats.vercel.app/api?username=sandyytampubolon&show_icons=true&theme=radical&hide_border=true&title_color=00FFFF&icon_color=FF00FF)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sandyytampubolon&layout=compact&theme=radical&hide_border=true)
 
 </div>
 
 ---
 
-### ⚙️ GitHub Activity Graph
+### ⚡ Activity Pulse
 
-[![Sandy's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sandyytampubolon&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
-### 🎧 Now Playing on Spotify
-[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=121212)](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&redirect=true)
-
-> 🔧 Ganti `YOUR_SPOTIFY_ID` dengan username Spotify kamu.  
-> Buka [spotify.com/account](https://spotify.com/account) → lihat bagian **Username**.
+[![Sandy's activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sandyytampubolon&theme=react-dark&hide_border=true&area=true&area_color=00ffff&point=ff00ff)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
-### 🕒 Latest Project Updates
-
-<p align="center">
-  <a href="https://github.com/sandyytampubolon?tab=repositories">
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=sandyytampubolon&show_icons=true&theme=radical" />
-
-  </a>
-</p>
+### 🎧 Now Playing
+[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&bar_color=00ffff&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&redirect=true)
 
 ---
 
-### 🐍 Contribution Snake Animation
+### 🐍 Cyber Snake
 <div align="center">
 
 ![snake light](https://github.com/sandyytampubolon/sandyytampubolon/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![snake dark](https://github.com/sandyytampubolon/sandyytampubolon/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
-
 </div>
 
 ---
 
-### ✨ Fun Quote
-> "The best error message is the one that never shows up."  
-> – Thomas Fuchs
+### 💻 Featured Projects
+
+| 🚀 Project | 🌐 Live Demo | 📄 Description |
+|-------------|--------------|----------------|
+| ⚡ **Portfolio Sandy** | [portofoliosandy.vercel.app](https://portofoliosandy.vercel.app) | Cyberpunk-inspired portfolio with 3D UI and Vercel hosting |
+| 🧩 **Web HR MCUCO** | _(Coming soon)_ | HR management system using Next.js + Tailwind + Node.js |
+| 💡 **SLC New** | _(In Development)_ | React-based academic management web app |
+
+---
+
+### 🌠 Fun Add-ons
+
+> 🌀 “The future belongs to those who code it.”  
+> 🔋 Booting next upgrade...  
+> 🧬 Integrating neural data stream...  
+> 💾 Connection stable ✅  
+
+<p align="center">
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=sandyytampubolon&data=followers,repositories,stars,commits&theme=radical" />
+</p>
 
 ---
 
 <p align="center">
-### 🚀 Recent Projects
-
-[![webhrmcuco](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=sandyytampubolon&repo=webhrmcuco&theme=radical)](https://github.com/sandyytampubolon/webhrmcuco)
-[![portofoliosandy](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=sandyytampubolon&repo=portofoliosandy&theme=radical)](https://github.com/sandyytampubolon/portofoliosandy)
-[![slc_new](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=sandyytampubolon&repo=slc_new&theme=radical)](https://github.com/sandyytampubolon/slc_new)
-
----
-
-### 🌐 Live Projects
-
-| Project | Live Demo | Description |
-|----------|------------|--------------|
-| 🧩 **Portfolio Sandy** | [portofoliosandy.vercel.app](https://portofoliosandy.vercel.app) | Website portfolio pribadi dengan desain modern dan interaktif |
-| ⚙️ **Web HR MCUCO** | _(Coming soon)_ | Sistem HR berbasis web menggunakan Next.js dan Tailwind |
-| 💡 **SLC New** | _(On development)_ | Aplikasi internal berbasis React untuk kegiatan kampus |
-
----
-
-✨ _Klik pada kartu di atas untuk membuka repo GitHub-nya!_
-
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff00ff&height=150&section=footer"/>
 </p>
 
-⭐️ _from [sandyytampubolon](https://github.com/sandyytampubolon)_
