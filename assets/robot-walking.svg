@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="500" height="160" viewBox="0 0 500 160" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#8a00ff"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+
+    <style>
+      .robot-body { fill: url(#bodyGrad); stroke: #04030a; stroke-width:1.5; filter: url(#shadow); }
+      .eye { fill: #0ff; }
+      .antenna { stroke: #0ff; stroke-width:2; stroke-linecap:round; }
+      .leg { fill: #1b1b1f; transform-origin: center top; }
+      .foot { fill: #0b0b0f; }
+      .arm { fill: #1b1b1f; transform-origin: center top; }
+
+      /* walking translation */
+      @keyframes moveForward {
+        0%   { transform: translateX(-10px); }
+        50%  { transform: translateX(10px); }
+        100% { transform: translateX(-10px); }
+      }
+
+      /* body bob */
+      @keyframes bob {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+        100% { transform: translateY(0px); }
+      }
+
+      /* leg swing */
+      @keyframes swingLegA {
+        0% { transform: rotate(20deg); }
+        50% { transform: rotate(-20deg); }
+        100% { transform: rotate(20deg); }
+      }
+      @keyframes swingLegB {
+        0% { transform: rotate(-20deg); }
+        50% { transform: rotate(20deg); }
+        100% { transform: rotate(-20deg); }
+      }
+
+      /* arm swing */
+      @keyframes swingArmA {
+        0% { transform: rotate(-25deg); }
+        50% { transform: rotate(15deg); }
+        100% { transform: rotate(-25deg); }
+      }
+      @keyframes swingArmB {
+        0% { transform: rotate(15deg); }
+        50% { transform: rotate(-25deg); }
+        100% { transform: rotate(15deg); }
+      }
+
+      .walk-group { animation: moveForward 2s linear infinite; }
+      .body-group { animation: bob 0.9s ease-in-out infinite; transform-origin: center center;}
+      .leg-left  { animation: swingLegA 0.9s ease-in-out infinite; transform-box: fill-box; }
+      .leg-right { animation: swingLegB 0.9s ease-in-out infinite; transform-box: fill-box; }
+      .arm-left  { animation: swingArmA 0.9s ease-in-out infinite; transform-box: fill-box; }
+      .arm-right { animation: swingArmB 0.9s ease-in-out infinite; transform-box: fill-box; }
+
+      /* tiny LED blink */
+      @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0.15; }
+        100% { opacity: 1; }
+      }
+      .eye { animation: blink 1.6s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- ground -->
+  <rect x="0" y="140" width="500" height="20" fill="#050507" />
+
+  <!-- whole robot group that translates to simulate walking -->
+  <g class="walk-group" transform="translate(180,20)">
+
+    <!-- body + head group (bobbing) -->
+    <g class="body-group" transform="translate(0,10)">
+
+      <!-- legs are drawn lower so we can rotate them -->
+      <!-- left leg -->
+      <g transform="translate(-26,88)">
+        <g class="leg-left">
+          <rect class="leg" x="-6" y="0" width="12" height="36" rx="4"/>
+          <rect class="foot" x="-14" y="36" width="28" height="8" rx="3"/>
+        </g>
+      </g>
+
+      <!-- right leg -->
+      <g transform="translate(26,88)">
+        <g class="leg-right">
+          <rect class="leg" x="-6" y="0" width="12" height="36" rx="4"/>
+          <rect class="foot" x="-14" y="36" width="28" height="8" rx="3"/>
+        </g>
+      </g>
+
+      <!-- body -->
+      <rect class="robot-body" x="-50" y="18" width="100" height="70" rx="12" />
+
+      <!-- head -->
+      <g transform="translate(0,2)">
+        <rect x="-26" y="-36" width="52" height="36" rx="8" fill="#0b0b0f" stroke="#00f0ff" stroke-width="1.2"/>
+        <circle class="eye" cx="-12" cy="-18" r="4"/>
+        <circle class="eye" cx="12" cy="-18" r="4"/>
+        <!-- mouth / panel -->
+        <rect x="-12" y="-6" width="24" height="5" rx="2" fill="#071018" stroke="#00c8ff" stroke-opacity="0.5" />
+        <!-- antenna -->
+        <line class="antenna" x1="0" y1="-36" x2="0" y2="-50" />
+        <circle cx="0" cy="-52" r="3" fill="#00ffd6" />
+      </g>
+
+      <!-- left arm -->
+      <g transform="translate(-58,34)">
+        <g class="arm-left" transform="rotate(-25)">
+          <rect x="-6" y="0" width="12" height="36" rx="6" />
+          <rect x="-10" y="36" width="20" height="8" rx="3" fill="#0b0b0f"/>
+        </g>
+      </g>
+
+      <!-- right arm -->
+      <g transform="translate(58,34)">
+        <g class="arm-right" transform="rotate(15)">
+          <rect x="-6" y="0" width="12" height="36" rx="6" />
+          <rect x="-10" y="36" width="20" height="8" rx="3" fill="#0b0b0f"/>
+        </g>
+      </g>
+
+      <!-- small chest lights -->
+      <g transform="translate(-20,36)">
+        <rect x="0" y="0" width="8" height="6" rx="2" fill="#00ffd6"/>
+      </g>
+      <g transform="translate(12,36)">
+        <rect x="0" y="0" width="8" height="6" rx="2" fill="#8a00ff" opacity="0.85"/>
+      </g>
+
+    </g>
+  </g>
+
+  <!-- optional tiny hover reflection -->
+  <ellipse cx="250" cy="148" rx="36" ry="6" fill="#000" opacity="0.18" />
+</svg>
