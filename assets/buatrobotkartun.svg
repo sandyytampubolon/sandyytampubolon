@@ -12,7 +12,7 @@
       <stop offset="100%" stop-color="#0b0b1f" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <circle cx="200" cy="100" r="120" fill="url(#glow)" />
+  <!-- <circle cx="200" cy="100" r="120" fill="url(#glow)" /> -->
 
   <!-- Robot -->
   <g id="robot" transform="translate(40,150)">
