@@ -95,9 +95,23 @@
 <p align="center">
 ### 🚀 Recent Projects
 
-[![webhrmcuco](https://github-readme-stats.vercel.app/api/pin/?username=sandyytampubolon&repo=webhrmcuco&theme=radical)](https://github.com/sandyytampubolon/webhrmcuco)
+[![webhrmcuco](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=sandyytampubolon&repo=webhrmcuco&theme=radical)](https://github.com/sandyytampubolon/webhrmcuco)
 [![portofoliosandy](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=sandyytampubolon&repo=portofoliosandy&theme=radical)](https://github.com/sandyytampubolon/portofoliosandy)
-[![slc_new](https://github-readme-stats.vercel.app/api/pin/?username=sandyytampubolon&repo=slc_new&theme=radical)](https://github.com/sandyytampubolon/slc_new)
+[![slc_new](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=sandyytampubolon&repo=slc_new&theme=radical)](https://github.com/sandyytampubolon/slc_new)
+
+---
+
+### 🌐 Live Projects
+
+| Project | Live Demo | Description |
+|----------|------------|--------------|
+| 🧩 **Portfolio Sandy** | [portofoliosandy.vercel.app](https://portofoliosandy.vercel.app) | Website portfolio pribadi dengan desain modern dan interaktif |
+| ⚙️ **Web HR MCUCO** | _(Coming soon)_ | Sistem HR berbasis web menggunakan Next.js dan Tailwind |
+| 💡 **SLC New** | _(On development)_ | Aplikasi internal berbasis React untuk kegiatan kampus |
+
+---
+
+✨ _Klik pada kartu di atas untuk membuka repo GitHub-nya!_
 
 
 </p>
