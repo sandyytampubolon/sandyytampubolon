@@ -1,0 +1,117 @@
+<svg viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="160" fill="#050510"/>
+  <rect y="135" width="400" height="25" fill="#111"/>
+
+  <!-- Baymax -->
+  <g id="baymax" transform="translate(50,115)">
+    <!-- Body -->
+    <ellipse cx="0" cy="-20" rx="13" ry="18" fill="#e0f7fa" stroke="#00ffff" stroke-width="1.2"/>
+    <!-- Head -->
+    <circle cx="0" cy="-42" r="9" fill="#c2f0ff" stroke="#00ffff" stroke-width="1.2"/>
+    <circle cx="-3" cy="-42" r="1.5" fill="#111"/>
+    <circle cx="3" cy="-42" r="1.5" fill="#111"/>
+    <line x1="-3" y1="-42" x2="3" y2="-42" stroke="#222" stroke-width="1"/>
+
+    <!-- Arms -->
+    <line x1="-13" y1="-26" x2="-21" y2="-10" stroke="#00ffff" stroke-width="3" stroke-linecap="round"/>
+    <line x1="13" y1="-26" x2="21" y2="-10" stroke="#00ffff" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Legs -->
+    <line id="legL" x1="-6" y1="-5" x2="-8" y2="15" stroke="#00ffff" stroke-width="3" stroke-linecap="round"/>
+    <line id="legR" x1="6" y1="-5" x2="8" y2="15" stroke="#00ffff" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Gerakan jalan & jatuh bertahap -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="
+        50,115;
+        120,115;
+        160,115;
+        185,120;
+        200,130;
+        200,135;
+        200,130;
+        240,115;
+        50,115"
+      keyTimes="0;0.2;0.35;0.45;0.55;0.65;0.75;0.9;1"
+      dur="10s"
+      repeatCount="indefinite"
+      additive="replace"/>
+
+    <!-- Rotasi tubuh alami (condong dulu, baru jatuh total, lalu bangun) -->
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      values="
+        0 0 0;
+        0 0 0;
+        15 0 0;
+        45 0 0;
+        85 0 0;
+        45 0 0;
+        0 0 0;
+        0 0 0"
+      keyTimes="0;0.2;0.35;0.45;0.55;0.65;0.75;1"
+      dur="10s"
+      repeatCount="indefinite"
+      additive="sum"/>
+
+    <!-- Lutut kiri menekuk saat jatuh -->
+    <animate
+      xlink:href="#legL"
+      attributeName="y2"
+      values="15; 15; 10; 5; 15; 15"
+      keyTimes="0;0.3;0.4;0.5;0.7;1"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+    <!-- Lutut kanan mengikuti -->
+    <animate
+      xlink:href="#legR"
+      attributeName="y2"
+      values="15; 15; 12; 6; 15; 15"
+      keyTimes="0;0.3;0.4;0.5;0.7;1"
+      dur="10s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Bayangan -->
+  <ellipse id="shadow" cx="50" cy="135" rx="13" ry="4" fill="#00ffff33">
+    <animate
+      attributeName="cx"
+      values="50;120;160;185;200;200;240;50"
+      keyTimes="0;0.2;0.35;0.45;0.55;0.75;0.9;1"
+      dur="10s"
+      repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Efek Debu saat jatuh -->
+  <circle cx="200" cy="135" r="0" fill="#00ffff88">
+    <animate attributeName="r" values="0;0;5;10;0" keyTimes="0;0.4;0.5;0.6;0.75" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.4;0.5;0.6;0.75" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Efek Neon -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#glow)">
+    <circle cx="200" cy="80" r="65" fill="none" stroke="#00ffff33" stroke-width="0.6">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 200 80"
+        to="360 200 80"
+        dur="16s"
+        repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
