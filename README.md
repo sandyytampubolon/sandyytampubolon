@@ -1,10 +1,9 @@
-<!-- 🌌 CYBERPUNK THEME GITHUB README -->
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,100:ff00ff&height=250&section=header&text=⚡Sandy%20Tampubolon⚡&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=38"/>
 </p>
 
-<h3 align="center">🤖 Fullstack Developer | ☁️ AI & Data Explorer | ⚙️ Automation Engineer</h3>
+<h3 align="center">🤖 Fullstack Developer | ☁️ AI & Data Analyst | ⚙️ Automation Engineer</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/sandy-tampubolon-1811942b6/">
@@ -20,9 +19,9 @@
 
 ---
 
-### 👾 Welcome,!
+### 👾 Welcome !
 
-🧠 Passionate about crafting **AI-driven, data-powered web experiences**  
+🧠 Passionate about crafting **AI & Data Analyst, Automation Engineer, web experiences**  
 ⚙️ Loves **Next.js**, **React**, and **backend automation**  
 💬 "Code like a machine, think like a human."
 
@@ -57,12 +56,11 @@
 
 ---
 
-### 🎧 Now Playing on Spotify
+### Animation
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sandyytampubolon/sandyytampubolon/main/assets/buatrobotkartun.svg" width="600" alt="Cyberpunk Robot" />
 </p>
----
 
 ### 🐍 Cyber Snake
 <div align="center">
@@ -71,8 +69,6 @@
 ![snake dark](https://github.com/sandyytampubolon/sandyytampubolon/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 </div>
-
----
 
 ### 💻 Featured Projects
 
@@ -84,16 +80,14 @@
 
 ---
 
-### 🌠 Fun Add-ons
+### 🌠 Caption
 
 > 🌀 “The future belongs to those who code it.”  
-> 🔋 Booting next upgrade...  
-> 🧬 Integrating neural data stream...  
-> 💾 Connection stable ✅  
 
-<p align="center">
+
+<!-- <p align="center">
   <img src="https://github-widgetbox.vercel.app/api/profile?username=sandyytampubolon&data=followers,repositories,stars,commits&theme=radical" />
-</p>
+</p> -->
 
 ---
 
