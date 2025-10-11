@@ -79,7 +79,7 @@
 | 🚀 Project | 🌐 Live Demo | 📄 Description |
 |-------------|--------------|----------------|
 | ⚡ **Portfolio Sandy** | [portofoliosandy.vercel.app](https://portofoliosandy.vercel.app) | Cyberpunk-inspired portfolio with 3D UI and Vercel hosting |
-| 🧩 **Web HR MCUCO** | _(Coming soon)_ | HR management system using Next.js + Tailwind + Node.js |
+| 🧩 **Web HR MCUCO** |[github.com/sandyytampubolon/webhrmcuco](https://github.com/sandyytampubolon/webhrmcuco) | HR management system using Next.js + Tailwind + Node.js |
 | 💡 **SLC New** | _(In Development)_ | React-based academic management web app |
 
 ---
