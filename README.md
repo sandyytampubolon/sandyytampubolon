@@ -78,9 +78,9 @@
 
 | 🚀 Project | 🌐 Live Demo | 📄 Description |
 |-------------|--------------|----------------|
-| ⚡ **Portfolio Sandy** | [portofoliosandy.vercel.app](https://portofoliosandy.vercel.app) | Cyberpunk-inspired portfolio with 3D UI and Vercel hosting |
-| 🧩 **Web HR MCUCO** |[github.com/sandyytampubolon/webhrmcuco](https://github.com/sandyytampubolon/webhrmcuco) | HR management system using Next.js + Tailwind + Node.js |
-| 💡 **SLC New** | [github.com/VinGreg/slc_new/collab](https://github.com/VinGreg/slc_new) | React-based academic management web app |
+| ⚡ **Portfolio Sandy** | [portofoliosandy.vercel.app](https://portofoliosandy.vercel.app) | Web & Mobile Portofolio |
+| 🧩 **Web HR MCUCO** |[github.com/sandyytampubolon/webhrmcuco](https://github.com/sandyytampubolon/webhrmcuco) | Web HR management system |
+| 💡 **SLC New** | [github.com/VinGreg/slc_new/collab](https://github.com/VinGreg/slc_new) | Web & Mobile Sign Language Class |
 
 ---
 
